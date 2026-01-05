@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|solutionrelative:zipservice.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|d:\\cognizant project\\zipsystem\\application\\atlscanservice\\izipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\zipprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|solutionrelative:zipprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\izipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|solutionrelative:izipservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|d:\\cognizant project\\zipsystem\\application\\atlscanservice\\contracts\\servicefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\contracts\\servicefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|solutionrelative:contracts\\servicefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|d:\\cognizant project\\zipsystem\\application\\atlscanservice\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|solutionrelative:logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|d:\\cognizant project\\zipsystem\\application\\atlscanservice\\zipprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|solutionrelative:zipprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Logger.cs",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\Logger.cs",
               "RelativeDocumentMoniker": "Logger.cs",
@@ -50,25 +50,24 @@
               "RelativeToolTip": "Logger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T14:55:01.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T14:55:01.788Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ZipProcessor.cs",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\ZipProcessor.cs",
               "RelativeDocumentMoniker": "ZipProcessor.cs",
               "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\ZipProcessor.cs",
               "RelativeToolTip": "ZipProcessor.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-04T14:52:03.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ServiceFault.cs",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\Contracts\\ServiceFault.cs",
               "RelativeDocumentMoniker": "Contracts\\ServiceFault.cs",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "Contracts\\ServiceFault.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T14:49:00.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T14:49:00.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IZipService.cs",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\IZipService.cs",
               "RelativeDocumentMoniker": "IZipService.cs",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "IZipService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-04T14:47:29.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-04T14:47:29.801Z"
             },
             {
               "$type": "Document",
@@ -100,7 +97,7 @@
               "RelativeDocumentMoniker": "ZipService.svc.cs",
               "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\ZipService.svc.cs",
               "RelativeToolTip": "ZipService.svc.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAA1wCcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-04T14:45:59.735Z",
               "EditorCaption": ""

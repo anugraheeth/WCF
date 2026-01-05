@@ -17,7 +17,8 @@ namespace ATLSCANService
                 destinationRoot,
                 now.Year.ToString(),
                 now.Month.ToString("D2"),
-                now.Day.ToString("D2")
+                now.Day.ToString("D2"),
+                Path.GetFileNameWithoutExtension(zipPath)
             );
 
             Directory.CreateDirectory(folder);

@@ -4,3 +4,7 @@ File name: 'D:\Cognizant Project\ZipSystem\SourceZips\sample_1'
    at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
    at ATLSCANService.ZipProcessor.Process(String zipPath, String destinationRoot)
    at ATLSCANService.ZipService.ProcessZipManual(String zipFileName)
+1/5/2026 8:37:40 AM | System.IO.FileNotFoundException: ZIP not found: D:\Cognizant Project\ZipSystem\SourceZips\sampe_1.zip
+   at ATLSCANService.ZipService.ProcessZipManual(String zipFileName) in D:\Cognizant Project\ZipSystem\Application\ATLSCANService\ZipService.svc.cs:line 34
+1/5/2026 8:41:06 AM | System.IO.FileNotFoundException: ZIP not found: D:\Cognizant Project\ZipSystem\SourceZips\sampe_1.zip
+   at ATLSCANService.ZipService.ProcessZipManual(String zipFileName) in D:\Cognizant Project\ZipSystem\Application\ATLSCANService\ZipService.svc.cs:line 34
