@@ -1,9 +1,9 @@
-📦 ATLSCAN – IIS Deployment Guide (End-to-End)
+## 📦 ATLSCAN – IIS Deployment Guide (End-to-End)
 
 This guide walks through deploying ATLSCAN from a fresh Windows machine to a fully working IIS-hosted application, including WCF service + ASP.NET MVC UI.
 
-🧩 Architecture Recap (What We Are Deploying)
-
+### 🧩 Architecture Recap (What We Are Deploying)
+```
 ATLSCANService → WCF Service (IIS-hosted)
 
 ALTSCANUI → ASP.NET MVC Web App
@@ -11,8 +11,9 @@ ALTSCANUI → ASP.NET MVC Web App
 File System → SourceZips, Destination, Logs
 
 Both applications will be hosted under IIS.
-
-🖥️ 1. Prerequisites
+```
+### 🖥️ 1. Prerequisites
+```
 Operating System
 
 Windows 10 / 11 / Windows Server 2019+
@@ -24,8 +25,9 @@ Software
 IIS (Internet Information Services)
 
 Visual Studio (for publishing)
-
-🔧 2. Enable Required Windows Features
+```
+### 🔧 2. Enable Required Windows Features
+```
 Open Windows Features
 Control Panel → Programs → Turn Windows features on or off
 
@@ -36,43 +38,43 @@ Web Management Tools
 
 ✔ IIS Management Console
 
-World Wide Web Services
+  World Wide Web Services
 
-Application Development Features
+    Application Development Features
 
-✔ .NET Extensibility 4.8
+      ✔ .NET Extensibility 4.8
 
-✔ ASP.NET 4.8
+      ✔ ASP.NET 4.8
 
-✔ ISAPI Extensions
+      ✔ ISAPI Extensions
 
-✔ ISAPI Filters
+      ✔ ISAPI Filters
 
-Common HTTP Features
+  Common HTTP Features
 
-✔ Default Document
+    ✔ Default Document
 
-✔ Static Content
+    ✔ Static Content
 
-Security
+  Security
 
-✔ Request Filtering
+    ✔ Request Filtering
 
 ✅ WCF Services
 
-.NET Framework 4.8 Advanced Services
+  .NET Framework 4.8 Advanced Services
 
-✔ WCF Services
+    ✔ WCF Services
 
-✔ HTTP Activation
+    ✔ HTTP Activation
 
 📌 Important:
 If WCF HTTP Activation is not enabled, .svc files will NOT work.
 
 ➡ Click OK and restart the machine if prompted.
-
-🌐 3. Verify IIS Installation
-
+```
+### 🌐 3. Verify IIS Installation
+```
 Open Run
 
 Type:
@@ -88,9 +90,9 @@ http://localhost
 
 
 You should see the IIS welcome page.
-
-📂 4. Prepare Folder Structure (Recommended)
-
+```
+### 📂 4. Prepare Folder Structure (Recommended)
+```
 Create a deployment root:
 
 C:\ATLSCAN\
@@ -103,8 +105,9 @@ C:\ATLSCAN\
 
 
 These paths will be referenced by both UI and service.
-
-🧪 5. Publish ATLSCANService (WCF)
+```
+### 🧪 5. Publish ATLSCANService (WCF)
+```
 Step 1: Publish from Visual Studio
 
 Open ATLSCANService project
@@ -172,8 +175,9 @@ http://localhost/ATLSCANService/ZipService.svc
 ✅ You should see WCF Service Help Page
 
 ❌ If you see download prompt → HTTP Activation not enabled
-
-🖥️ 6. Publish ALTSCANUI (ASP.NET MVC UI)
+```
+### 🖥️ 6. Publish ALTSCANUI (ASP.NET MVC UI)
+```
 Step 1: Publish UI
 
 Right-click ALTSCANUI
@@ -204,9 +208,9 @@ Step 3: Configure Application Pool
 Pipeline Mode: Integrated
 
 Identity: ApplicationPoolIdentity
-
-🔗 7. Configure WCF Endpoint in UI
-
+```
+### 🔗 7. Configure WCF Endpoint in UI
+```
 Open:
 
 C:\ATLSCAN\UI\Web.config
@@ -221,9 +225,9 @@ Verify endpoint points to IIS-hosted service:
 
 
 📌 If hosting on server, replace localhost with server hostname.
-
-🔐 8. Folder Permissions (CRITICAL)
-
+```
+### 🔐 8. Folder Permissions (CRITICAL)
+```
 Grant Modify permissions to IIS App Pool identity:
 
 Folders:
@@ -252,8 +256,9 @@ Read
 Write
 
 Modify
-
-▶️ 9. Final Validation
+```
+### ▶️ 9. Final Validation
+```
 Test UI
 http://localhost/ATLSCANUI
 
@@ -299,9 +304,9 @@ Add logging rotation
 Bind HTTPS
 
 Use Windows Authentication if internal
-
-🎯 Result
-
+```
+### 🎯 Result
+```
 You now have:
 
 IIS-hosted WCF service
@@ -309,3 +314,4 @@ IIS-hosted WCF service
 IIS-hosted ASP.NET MVC UI
 
 Fully working ZIP processing system
+```
