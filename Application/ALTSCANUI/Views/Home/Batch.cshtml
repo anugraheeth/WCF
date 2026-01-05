@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Batch Processing";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-3">Batch ZIP Processing</h2>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <h6 class="text-muted">Result</h6>
+            <div class="alert alert-info">
+                @ViewBag.Result
+            </div>
+
+            <a class="btn btn-secondary" href="@Url.Action("Index")">
+                ⬅ Back to Home
+            </a>
+        </div>
+    </div>
+</div>

@@ -8,13 +8,13 @@
   </PropertyGroup>
   <ItemGroup>
     <File Include="bin/ATLSCANService.dll">
-      <publishTime>01/04/2026 21:00:02</publishTime>
+      <publishTime>01/05/2026 21:21:06</publishTime>
     </File>
     <File Include="bin/ATLSCANService.pdb">
-      <publishTime>01/04/2026 21:00:02</publishTime>
+      <publishTime>01/05/2026 21:21:06</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/04/2026 21:00:02</publishTime>
+      <publishTime>01/05/2026 21:21:07</publishTime>
     </File>
     <File Include="ZipService.svc">
       <publishTime>01/04/2026 20:21:10</publishTime>

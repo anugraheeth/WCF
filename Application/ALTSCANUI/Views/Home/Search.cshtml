@@ -1,0 +1,61 @@
+﻿@model List<string>
+
+@{
+    ViewBag.Title = "Search Files";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-3">Search Files</h2>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-body">
+            <form method="get" class="row g-2">
+                <div class="col-md-8">
+                    <input type="text"
+                           name="fileName"
+                           class="form-control"
+                           placeholder="Enter file name" />
+                </div>
+                <div class="col-md-4">
+                    <button class="btn btn-primary w-100">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>File Path</th>
+                    <th style="width:150px">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var file in Model)
+                {
+                    <tr>
+                        <td>@file</td>
+                        <td>
+                            <a class="btn btn-sm btn-success"
+                               href="@Url.Action("Download", "Home", new { path = file })">
+                                Download
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            No files found
+        </div>
+    }
+
+    <a class="btn btn-secondary mt-3" href="@Url.Action("Index")">
+        ⬅ Back to Home
+    </a>
+</div>

@@ -57,15 +57,52 @@ namespace ATLSCANService
             return $"Processed {success} ZIP files";
         }
 
-        List<string> IZipService.SearchFile(string fileName)
+        private readonly string DestinationRoot =
+        @"D:\Cognizant Project\ZipSystem\Destination";
+
+        public List<string> SearchFile(string fileName)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(fileName))
+                return new List<string>();
+
+            if (!Directory.Exists(DestinationRoot))
+                return new List<string>();
+
+            // Search recursively
+            var files = Directory
+                .GetFiles(DestinationRoot, "*", SearchOption.AllDirectories)
+                .Where(f => Path.GetFileName(f)
+                    .IndexOf(fileName, StringComparison.OrdinalIgnoreCase) >= 0)
+                .Select(f => GetRelativePath(f))
+                .ToList();
+
+            return files;
         }
 
-        byte[] IZipService.DownloadFile(string relativePath)
+        public byte[] DownloadFile(string relativePath)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(relativePath))
+                throw new FaultException("Invalid file path");
+
+            relativePath = relativePath.Replace("/", "\\");
+
+            var fullPath = Path.Combine(DestinationRoot, relativePath);
+
+            if (!File.Exists(fullPath))
+                throw new FaultException("File not found");
+
+            return File.ReadAllBytes(fullPath);
         }
+
+
+        private string GetRelativePath(string fullPath)
+        {
+            return fullPath
+                .Replace(DestinationRoot, "")
+                .TrimStart('\\')
+                .Replace("\\", "/");
+        }
+
     }
 
 }

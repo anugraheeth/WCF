@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="082dc983-74f2-4f9a-8568-895582744ebf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:60736/ZipService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ZipService.xsd" MetadataType="Schema" ID="d6ced0dd-5abd-4f2a-ac7d-c5aa95216b3d" SourceId="1" SourceUrl="http://localhost:60736/ZipService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ZipService1.xsd" MetadataType="Schema" ID="c7e5ddd5-77da-43ba-baaf-5ba3a7c43dac" SourceId="1" SourceUrl="http://localhost:60736/ZipService.svc?xsd=xsd3" />
+    <MetadataFile FileName="ZipService2.xsd" MetadataType="Schema" ID="87e54556-5d24-4cbb-9afc-774dee949097" SourceId="1" SourceUrl="http://localhost:60736/ZipService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ZipService.wsdl" MetadataType="Wsdl" ID="c1e73e93-bc93-4e4a-afe2-3764facee775" SourceId="1" SourceUrl="http://localhost:60736/ZipService.svc?wsdl" />
+    <MetadataFile FileName="ZipService3.xsd" MetadataType="Schema" ID="34bd0295-400b-4578-b9b0-e82509ef464d" SourceId="1" SourceUrl="http://localhost:60736/ZipService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ZipService.disco" MetadataType="Disco" ID="eff8f0a4-226f-4008-885d-7d1c6dfe6781" SourceId="1" SourceUrl="http://localhost:60736/ZipService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

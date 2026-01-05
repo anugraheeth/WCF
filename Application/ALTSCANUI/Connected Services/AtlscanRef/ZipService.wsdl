@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="ZipService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:60736/ZipService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:60736/ZipService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ATLSCANService.Contracts" />
+      <xsd:import schemaLocation="http://localhost:60736/ZipService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:60736/ZipService.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IZipService_ProcessZipManual_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessZipManual" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_ProcessZipManual_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessZipManualResponse" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_ProcessZipManual_ServiceFaultFault_FaultMessage">
+    <wsdl:part xmlns:q1="http://schemas.datacontract.org/2004/07/ATLSCANService.Contracts" name="detail" element="q1:ServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_ProcessZipBatch_InputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessZipBatch" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_ProcessZipBatch_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ProcessZipBatchResponse" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_ProcessZipBatch_ServiceFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.datacontract.org/2004/07/ATLSCANService.Contracts" name="detail" element="q2:ServiceFault" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_SearchFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchFile" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_SearchFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_DownloadFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:DownloadFile" />
+  </wsdl:message>
+  <wsdl:message name="IZipService_DownloadFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DownloadFileResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IZipService">
+    <wsdl:operation name="ProcessZipManual">
+      <wsdl:input wsaw:Action="http://tempuri.org/IZipService/ProcessZipManual" message="tns:IZipService_ProcessZipManual_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IZipService/ProcessZipManualResponse" message="tns:IZipService_ProcessZipManual_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IZipService/ProcessZipManualServiceFaultFault" name="ServiceFaultFault" message="tns:IZipService_ProcessZipManual_ServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ProcessZipBatch">
+      <wsdl:input wsaw:Action="http://tempuri.org/IZipService/ProcessZipBatch" message="tns:IZipService_ProcessZipBatch_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IZipService/ProcessZipBatchResponse" message="tns:IZipService_ProcessZipBatch_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/IZipService/ProcessZipBatchServiceFaultFault" name="ServiceFaultFault" message="tns:IZipService_ProcessZipBatch_ServiceFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IZipService/SearchFile" message="tns:IZipService_SearchFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IZipService/SearchFileResponse" message="tns:IZipService_SearchFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IZipService/DownloadFile" message="tns:IZipService_DownloadFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IZipService/DownloadFileResponse" message="tns:IZipService_DownloadFile_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IZipService" type="tns:IZipService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ProcessZipManual">
+      <soap:operation soapAction="http://tempuri.org/IZipService/ProcessZipManual" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ServiceFaultFault">
+        <soap:fault use="literal" name="ServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="ProcessZipBatch">
+      <soap:operation soapAction="http://tempuri.org/IZipService/ProcessZipBatch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="ServiceFaultFault">
+        <soap:fault use="literal" name="ServiceFaultFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="SearchFile">
+      <soap:operation soapAction="http://tempuri.org/IZipService/SearchFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DownloadFile">
+      <soap:operation soapAction="http://tempuri.org/IZipService/DownloadFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ZipService">
+    <wsdl:port name="BasicHttpBinding_IZipService" binding="tns:BasicHttpBinding_IZipService">
+      <soap:address location="http://localhost:60736/ZipService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

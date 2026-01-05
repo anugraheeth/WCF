@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATLSCANService", "ATLSCANService.csproj", "{1C22DDC1-72A0-4193-843D-859241A4231E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALTSCANUI", "..\ALTSCANUI\ALTSCANUI.csproj", "{99E424F0-A92D-4A68-93D2-923F0CB57A15}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1C22DDC1-72A0-4193-843D-859241A4231E} = {1C22DDC1-72A0-4193-843D-859241A4231E}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{1C22DDC1-72A0-4193-843D-859241A4231E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C22DDC1-72A0-4193-843D-859241A4231E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C22DDC1-72A0-4193-843D-859241A4231E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E424F0-A92D-4A68-93D2-923F0CB57A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E424F0-A92D-4A68-93D2-923F0CB57A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E424F0-A92D-4A68-93D2-923F0CB57A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E424F0-A92D-4A68-93D2-923F0CB57A15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

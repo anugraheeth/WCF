@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "ATLSCANService.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\ALTSCANUI\\ALTSCANUI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
