@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ATLSCANService.ZipService" CodeBehind="ZipService.svc.cs" %>

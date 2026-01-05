@@ -1,0 +1,7 @@
+D:\Cognizant Project\ZipSystem\Application\ATLSCANService\bin\ATLSCANService.dll.config
+D:\Cognizant Project\ZipSystem\Application\ATLSCANService\bin\ATLSCANService.dll
+D:\Cognizant Project\ZipSystem\Application\ATLSCANService\bin\ATLSCANService.pdb
+D:\Cognizant Project\ZipSystem\Application\ATLSCANService\obj\Debug\ATLSCANService.csproj.AssemblyReference.cache
+D:\Cognizant Project\ZipSystem\Application\ATLSCANService\obj\Debug\ATLSCANService.csproj.CoreCompileInputs.cache
+D:\Cognizant Project\ZipSystem\Application\ATLSCANService\obj\Debug\ATLSCANService.dll
+D:\Cognizant Project\ZipSystem\Application\ATLSCANService\obj\Debug\ATLSCANService.pdb
