@@ -16,6 +16,11 @@ namespace ALTSCANUI.Controllers
         {
             return View();
         }
+        
+        public ActionResult About()
+        {
+            return View();
+        }
 
         public ActionResult Batch()
         {

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\views\\home\\manual.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -12,16 +24,7 @@
       "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\views\\home\\batch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99E424F0-A92D-4A68-93D2-923F0CB57A15}|..\\ALTSCANUI\\ALTSCANUI.csproj|d:\\cognizant project\\zipsystem\\application\\altscanui\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|d:\\cognizant project\\zipsystem\\application\\atlscanservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{1C22DDC1-72A0-4193-843D-859241A4231E}|ATLSCANService.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -35,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,25 +50,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "..\\ALTSCANUI\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-05T16:31:52.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "..\\ALTSCANUI\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBAAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-05T15:55:12.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Search.cshtml",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Search.cshtml",
               "RelativeDocumentMoniker": "..\\ALTSCANUI\\Views\\Home\\Search.cshtml",
-              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Search.cshtml*",
-              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Search.cshtml*",
+              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Search.cshtml",
+              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Search.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-05T15:54:29.13Z",
@@ -73,29 +89,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Manual.cshtml",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Manual.cshtml",
               "RelativeDocumentMoniker": "..\\ALTSCANUI\\Views\\Home\\Manual.cshtml",
-              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Manual.cshtml*",
-              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Manual.cshtml*",
+              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Manual.cshtml",
+              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Manual.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-05T15:54:18.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T15:54:18.748Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Batch.cshtml",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Batch.cshtml",
               "RelativeDocumentMoniker": "..\\ALTSCANUI\\Views\\Home\\Batch.cshtml",
-              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Batch.cshtml*",
-              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Batch.cshtml*",
+              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Batch.cshtml",
+              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Batch.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-05T15:54:02.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-05T15:54:02.729Z"
             },
             {
               "$type": "Document",
@@ -103,16 +117,16 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "..\\ALTSCANUI\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Index.cshtml*",
-              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Index.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\ALTSCANUI\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-05T15:53:40.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ATLSCANService\\Web.config",
               "RelativeDocumentMoniker": "Web.config",
@@ -125,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Web.config",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Web.config",
               "RelativeDocumentMoniker": "..\\ALTSCANUI\\Web.config",
@@ -138,13 +152,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "..\\ALTSCANUI\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\Cognizant Project\\ZipSystem\\Application\\ALTSCANUI\\Controllers\\HomeController.cs",
               "RelativeToolTip": "..\\ALTSCANUI\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T15:16:53.928Z",
               "EditorCaption": ""
