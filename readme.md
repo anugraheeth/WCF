@@ -16,9 +16,6 @@ WCF Service (ATLSCANService)
 v
 File System (SourceZips → Destination)
 
-yaml
-Copy code
-
 - **UI Layer:** ALTSCANUI (ASP.NET MVC)
 - **Service Layer:** ATLSCANService (WCF)
 - **Storage:** Local file system
@@ -95,7 +92,7 @@ Shown when no matching files are found.
 ---
 
 ## 📂 Project Structure
-
+```bash
 ZipSystem/
 │
 ├── Application/
@@ -121,40 +118,44 @@ ZipSystem/
 ├── SourceZips/ # Input ZIP files
 ├── Destination/ # Extracted files
 └── Logs/ # Application logs
+```
 
-yaml
-Copy code
-
----
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone Repository
-```bash
+```
 git clone https://github.com/anugraheeth/WCF.git
-2️⃣ Open Solution
+```
+
+### 2️⃣ Open Solution
+```
 Open Visual Studio
 
 Load the solution files under Application/
+```
 
-3️⃣ Configure Startup Projects
+### 3️⃣ Configure Startup Projects
+```
 Set Multiple Startup Projects:
 
 ATLSCANService → Start
 
 ALTSCANUI → Start
+```
 
-4️⃣ Verify Paths
+### 4️⃣ Verify Paths
+```
 Ensure these directories exist:
-
-Copy code
 SourceZips/
 Destination/
 Logs/
 (Adjust paths in Web.config if needed.)
+```
 
-5️⃣ Run
+### 5️⃣ Run
 Press F5
+```
 
 UI launches in browser
 
@@ -181,14 +182,16 @@ Enter file name or partial name
 View results
 
 Download directly
+```
 
 🔐 Notes
+```
 ZIP filenames are case-sensitive
 
 Ensure WCF service is running before UI
 
 Large ZIP files may take time to process
-
+```
 📄 License
 MIT License
 
