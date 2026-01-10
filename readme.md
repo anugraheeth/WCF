@@ -1,4 +1,4 @@
-# ATLSCAN – ZIP File Processing System (ASP.NET MVC + WCF)
+# FileRetrieval APP – ZIP File Processing System (ASP.NET MVC + WCF)
 
 ATLSCAN is a ZIP file processing system built using **ASP.NET MVC** for the UI and **WCF** for backend services.  
 It allows users to batch-process ZIP files, manually process specific ZIPs, and search/download extracted files through a web interface.
