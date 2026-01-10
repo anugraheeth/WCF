@@ -7,17 +7,17 @@ It allows users to batch-process ZIP files, manually process specific ZIPs, and 
 
 ## 🧱 Architecture Overview
 
-ASP.NET MVC UI (ALTSCANUI)
+ASP.NET MVC UI (APPUI)
 |
 | (WCF Client – Connected Service)
 v
-WCF Service (ATLSCANService)
+WCF Service (APPService)
 |
 v
 File System (SourceZips → Destination)
 
-- **UI Layer:** ALTSCANUI (ASP.NET MVC)
-- **Service Layer:** ATLSCANService (WCF)
+- **UI Layer:** APPUI (ASP.NET MVC)
+- **Service Layer:** APPService (WCF)
 - **Storage:** Local file system
 
 ---
